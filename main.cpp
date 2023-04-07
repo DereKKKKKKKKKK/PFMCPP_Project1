@@ -119,9 +119,9 @@ batteryCharger.chargingStop();
 //  action 1:   the doorbell camera plays a chime
 doorbellCamera.playChime();
 //  action 2:   the doorbell camera starts a recording
-doorbellCamera.recordingStart();
+doorbellCamera.startRecording();
 //  action 3:   the doorbell camera finishes a recording
-doorbellCamera.recordingStop();
+doorbellCamera.finishRecording();
 
 //  9)
 //  Noun:       kettle
