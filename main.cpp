@@ -115,13 +115,13 @@ batteryCharger.chargingStart();
 batteryCharger.chargingStop();
 
 //  8)
-//  Noun:       fridge
-//  action 1:   fridge checks its door status
-fridge.checkDoor();
-//  action 2:   fridge plays warning sound for unclosed door
-fridge.playDoorWarning();
-//  action 3:   fridge extracts temperture information
-fridge.getTemperture();
+//  Noun:       doorbell camera
+//  action 1:   the doorbell camera plays a chime
+doorbellCamera.playChime();
+//  action 2:   the doorbell camera starts a recording
+doorbellCamera.recordingStart();
+//  action 3:   the doorbell camera finishes a recording
+doorbellCamera.recordingStop();
 
 //  9)
 //  Noun:       kettle
