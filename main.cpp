@@ -52,85 +52,94 @@ arm.rotateCounterClockwise();           // 4) demonstrates camelCase
 
 
 //  1)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
+//  Noun:       elevator
+//  action 1:   the elevator moves up
+elevator.moveUp();
+//  action 2:   the elevator moves down
+elevator.moveDown();
+//  action 3:   the elevator annouces its current level
+elevator.annouceCurrentLevel();
 
 //  2)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
+//  Noun:       garage door
+//  action 1:   garage door opens
+garageDoor.open();
+//  action 2:   garage door closes
+garageDoor.close();
+//  action 3:   garage door stops moving
+garageDoor.stopMovement();
 
 //  3)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
+//  Noun:       lightbox
+//  action 1:   lightbox illuminates
+lightBox.illuminate();
+//  action 2:   lightbox dims
+lightBox.dim();
+//  action 3:   lightbox flashes
+lightBox.flash();
 
 //  4)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
+//  Noun:       guitar tuner
+//  action 1:   guitar tuner captures sound
+guitarTuner.captureSound();
+//  action 2:   guitar tuner extracts pitch information
+guitarTuner.extractPitch();
+//  action 3:   guitar tuner displays pitch information
+guitarTuner.displayPitch();
 
 //  5)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
+//  Noun:       music player
+//  action 1:   music player becomes louder
+musicPlayer.volumeUp();
+//  action 2:   music player becomes quieter
+musicPlayer.volumeDown();
+//  action 3:   music player stops playing
+musicPlayer.stop();
 
 //  6)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
+//  Noun:       air purifier
+//  action 1:   air purifier evaluates air condition 
+airPurifier.evaluateAirCondition();
+//  action 2:   air purifier displays air condition
+airPurifier.displayAirCondition();
+//  action 3:   air purifier plays a low air quality warning sound
+airPurifier.playWarningSound();
 
 //  7)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
+//  Noun:       battery charger
+//  action 1:   battery charger checks battery level
+batteryCharger.checkBatteryLevel();
+//  action 2:   battery charger activates charging
+batteryCharger.chargingStart();
+//  action 3:   battery charger stops charging
+batteryCharger.chargingStop();
 
 //  8)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
+//  Noun:       fridge
+//  action 1:   fridge checks its door status
+fridge.checkDoor();
+//  action 2:   fridge plays warning sound for unclosed door
+fridge.playDoorWarning();
+//  action 3:   fridge extracts temperture information
+fridge.getTemperture();
 
 //  9)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
+//  Noun:       kettle
+//  action 1:   kettle starts boiling water
+kettle.boilingStart();
+//  action 2:   kettle stops boiling water
+kettle.boilingStop();
+//  action 3:   kettle plays boiling finishing sound
+kettle.playFinishSound();
 
 //  10)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun:       camera
+//  action 1:   camera starts recording
+camera.recordingStart();
+//  action 2:   camera stops recording
+camera.recordingStop();
+//  action 3:   camera formats a memory card
+camera.formatCard();
 
 
 #endif
